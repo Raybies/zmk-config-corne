@@ -4,10 +4,11 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <dt-bindings/zmk/external_power.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/external_power.h>
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -15,36 +16,6 @@
         admin {
             bindings = <&mo 3>;
             key-positions = <38 39>;
-        };
-
-        left {
-            bindings = <&kp LEFT>;
-            key-positions = <12 14>;
-        };
-
-        up {
-            bindings = <&kp UP_ARROW>;
-            key-positions = <12 3>;
-        };
-
-        down {
-            bindings = <&kp DOWN>;
-            key-positions = <12 15>;
-        };
-
-        right {
-            bindings = <&kp RIGHT_ARROW>;
-            key-positions = <12 16>;
-        };
-
-        colin {
-            bindings = <&kp COLON>;
-            key-positions = <1 2>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
         };
     };
 
