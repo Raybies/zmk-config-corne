@@ -57,10 +57,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1             &kp N2           &kp N3        &kp N4            &kp N5         &kp N6        &kp N7        &kp N8        &kp N9        &kp N0     &kp DELETE
-&trans      &kp LEFT_ARROW     &kp DOWN         &kp UP_ARROW  &kp RIGHT         &kp PERCENT    &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp KP_MULTIPLY
-&trans      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &kp C_PLAY_PAUSE  &mo 3          &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &trans
-                                                &kp LGUI      &trans            &mo 1          &mo 2         &trans        &kp RALT
+&kp ESCAPE  &kp N1             &kp N2           &kp N3        &kp N4            &kp N5       &kp N6        &kp N7        &kp N8        &kp N9        &kp N0     &kp DELETE
+&trans      &kp LEFT_ARROW     &kp DOWN         &kp UP_ARROW  &kp RIGHT         &kp EQUAL    &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp KP_MULTIPLY
+&trans      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE    &kp C_PLAY_PAUSE  &mo 3        &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &trans
+                                                &kp LGUI      &trans            &mo 1        &mo 2         &trans        &kp RALT
             >;
         };
 
