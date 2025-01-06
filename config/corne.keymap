@@ -16,6 +16,7 @@
         admin {
             bindings = <&mo 3>;
             key-positions = <38 39>;
+            layers = <0>;
         };
     };
 
